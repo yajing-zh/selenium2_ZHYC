@@ -1,0 +1,1 @@
+要想运行此工程中的com.demo.test.testcases.login.LoginPage_002_LoginAutomaticlyFunction_Test里边的loginAutomaticlyFunction方法，必须先运行com.demo.test.utils.Cookies中的addCookies()方法，以生成保存登录cookies的browser.data，之后再把com.demo.test.base.BaseParpare中的第51行Boolean loginAutomaticly = false；的值改为true，这样就能在打开浏览器的同时加载cookies,自动登录账户，以免除输入验证码的烦恼，以便进行后续登录账户后的操作。
